@@ -1,0 +1,111 @@
+body {
+	font: 11px Arial, Helvetica, sans-serif;
+	background: #ffffff url(../images/bg.jpg);
+	padding: 0;
+	margin: 0;
+}
+img {
+	border: none;
+}
+
+#welcome {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-weight: bold;
+	font-size: 12px;
+	background: url(../images/kopetestatusmessage.png) no-repeat;
+	height: 128px;
+	width: 128px;
+	padding-top: 40px;
+	text-align: center;
+}
+
+#logo {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	height: 207px;
+	width: 360px;
+	padding-top: 40px;
+	text-align: center;
+}
+
+#command-button-bar {
+	position: absolute;
+	top: 5px;
+	padding-top: 10px;
+	left: 5px;
+}
+
+/* dock - top */
+.dock {
+	position: relative;
+	height: 50px;
+	text-align: center;
+}
+.dock-container {
+	position: absolute;
+	height: 50px;
+	background: url(../images/dock-bg2.gif);
+	padding-left: 20px;
+}
+a.dock-item {
+	display: block;
+	width: 40px;
+	color: #000;
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	text-decoration: none;
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+.dock-item img {
+	border: none;
+	margin: 5px 10px 0px;
+	width: 100%;
+}
+.dock-item span {
+	display: none;
+	padding-left: 20px;
+}
+
+/* dock2 - bottom */
+#dock2 {
+	width: 100%;
+	bottom: 0px;
+	position: absolute;
+	left: 0px;
+}
+.dock-container2 {
+	position: absolute;
+	height: 49px;
+	background: url(../images/dock-bg2.gif);
+	padding-left: 20px;
+}
+a.dock-item2 {
+	display: block;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	width: 40px;
+	color: #000;
+	bottom: 0px;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+}
+.dock-item2 span {
+	display: none;
+	padding-left: 20px;
+}
+.dock-item2 img {
+	border: none;
+	margin: 5px 10px 0px;
+	width: 100%;
+}
+
+.icono{
+    color: #ff0000;
+}
+.icono img {
+    cursor: pointer;
+}

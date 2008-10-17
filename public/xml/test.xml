@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<schedule blocks="8h,9h,10h,11h,12h,13h,14h,15h,16h" days="Lunes,Martes,Miercoles,Jueves,Viernes,Sabado">
+  <settings>
+    <legend font="2" leftpadding="40" toppadding="20" rightpadding="0" bottompadding="0" />
+    <block bgcolor="#efefef" bordercolor="#0099dd" leftpadding="5" toppadding="3" alpha="40%">
+      <title align="right" color="#0" font="3"/>
+      <description align="left" color="#0" font="2"/>
+    </block>
+  </settings>
+  <day number="4">
+    <block name="Actividad 1" at="1" />
+    <block name="Event 7" at="4" blockspan="3" bgcolor="#0c0" bordercolor="#0" alpha="70%">This is a description very very very very big that takes a lot of lines...</block>
+  </day>
+  <day number="2">
+    <block name="Event 1" at="5" blockspan="2">A description\nwith\nmany\nline\nfeeds :)</block>
+    <block name="Another Event" at="7" dayspan="1" blockspan="1" dayoffset="0.5">This is another big event</block>
+  </day>
+  <day number="1">
+    <block name="Event 3" at="7" blockspan="2" dayspan="1.2" bgcolor="#f00" alpha="70%">Room: 213.232.3\nSize: 150 seats</block>
+    <block name="Event 5" at="2" dayspan="-0.5" blockspan="2"/>
+    <block name="Event 5" at="2" dayoffset="0.50" dayspan="-0.5" blockoffset="0.5" blockspan="2">Some offset..\n30min</block>
+  </day>
+  <day number="5">
+    <block name="Evento 8" at="3" />
+  </day>
+  <day number="6">
+    <block name="Evento 8" at="3" />
+  </day>
+</schedule>

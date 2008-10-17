@@ -1,0 +1,242 @@
+body {
+	font: 10px Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin: 3px;
+}
+
+img {
+	border: none;
+	cursor: pointer;
+}
+
+table {
+    border: 1px;
+    border-color: #000;
+}
+
+#ajax_load {
+	background: url(../images/loading.gif) no-repeat left center;
+}
+
+#live_search {
+	background: url(../images/loading.gif) no-repeat left center;
+}
+
+.button {
+    text-align: center;
+    cursor: pointer;
+}
+
+td {
+	vertical-align: top;
+}
+
+
+/* SORTABLES */
+.sortable {
+  overflow: auto;
+}
+
+ul.sortable li {
+  padding:0px;
+  margin:0px;
+}
+
+li.green {
+  background-color: #ECF3E1;
+  border:1px solid #C5DEA1;
+  cursor: move;
+}
+
+/* Transparent form message (error and notice) for ajax form */
+.transparent_ajax_message {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  opacity: 1;
+}
+
+.transparent_ajax_error p {
+  color: #560109;
+  background: #FFA3A9;
+
+  border-left: 1px solid #750004;
+  border-right: 1px solid #750004;
+  border-bottom: 1px solid #750004;
+  margin: -12px 20px 0px 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-bottomright: 10px;
+}
+
+.transparent_ajax_notice p {
+  color: #23571D;
+  background: #9BFFA3;
+
+  border-left: 1px solid #23571D;
+  border-right: 1px solid #23571D;
+  border-bottom: 1px solid #23571D;
+  margin: -12px 20px 0px 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-bottomright: 10px;
+}
+
+
+/* Saving message for ajax form */
+#ajax_info_message {
+  position: absolute;
+  background: #FFF;
+  opacity:  0.8;
+}
+
+#ajax_info_message p {
+  padding-top: 0px;
+  font-size: 30px;
+  color: #B1A861;
+  text-align:  center;
+}
+
+
+/* TableSort */
+.sortable {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.sortable td, .sortable th {
+	padding: 0.1em;
+	border: 1px solid #CCC;
+	text-align: center;
+}
+
+.sortable thead, .sortable tfoot {
+	background-color: #DDD;
+}
+
+tr.rowodd {
+
+}
+
+tr.roweven {
+	background-color: #F2F2F2;
+}
+
+.sortcol {
+	cursor: pointer;
+	padding-right: 20px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.sortasc {
+	background-color: #DDFFAC;
+	background-image: url(../images/tablesort/up.gif);
+}
+.sortdesc {
+	background-color: #B9DDFF;
+	background-image: url(../images/tablesort/down.gif);
+}
+.nosort {
+	cursor: default;
+}
+
+.scroll-table-head {
+    width: 800px;
+}
+
+.scroll-table-body {
+    width: 800px;
+    height: 400px;
+}
+.scroll-table-body td {
+	padding-right: 20px;
+	overflow: hidden;
+}
+
+#info {
+  color: #23571D;
+  background: #9BFFA3;
+
+  border-left: 1px solid #750004;
+  border-right: 1px solid #750004;
+  border-bottom: 1px solid #750004;
+  border-top: 1px solid #750004;
+  margin: 10px 10px 10px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-bottomright: 10px;
+  }
+
+#leyenda-actividad-estado {
+  color: #000;
+  background: #ccc;
+  font-weight: bold;
+
+  position: absolute;
+  top: 29px;
+  right: 0px;
+
+  border-left: 1px solid #750004;
+  border-right: 1px solid #750004;
+  border-bottom: 1px solid #750004;
+  border-top: 1px solid #750004;
+  margin: 10px 10px 10px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-bottomright: 10px;
+  }
+
+fieldset {
+    border: 2px solid #781351;
+    padding: 0px 10px;
+}
+
+legend {
+   color: #000;
+   background: #ccc;
+   border: 1px solid #781351;
+   margin-left: 10px;
+  font-weight: bold;
+font-style: italic;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-bottomright: 10px;
+
+
+}
+
+#command-button-bar {
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-bottomright: 5px;
+
+  border: solid 2px;
+  padding: 3px;
+  background-color: #CACACA;
+  font-weight: bold;
+  font-size: 11px;
+}
